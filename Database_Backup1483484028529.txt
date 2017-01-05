@@ -1,0 +1,16 @@
+Database create queries:
+CREATE TABLE YCStudent( BannerID int, Class varchar(255), FirstName varchar(255) DEFAULT 'SFName', LastName varchar(255) NOT NULL, GPA decimal(1,2) DEFAULT 0.00, Major varchar(225), StillStudent boolean, PRIMARY KEY (BannerID));
+CREATE TABLE RIETSStudents( BannerID int, Class varchar(255), FirstName varchar(255) DEFAULT 'SFName', LastName varchar(255) NOT NULL, StillUndergrad boolean, PRIMARY KEY (BannerID));
+CREATE INDEX GPA_Index on YCStudent (GPA);
+
+Table YCStudent rows:
+'Math','Super Senior',3.0,'Ricardo',200043385,'Martinez',true
+'Sociology','Junior',1.85,'Huge',800012345,'Person',true
+'Rave','Super Senior',3.0,'David',600043385,'Marcus',true
+'Rave','Super Senior',3.0,'Melyssa',600043345,'Mandelbaum',true
+'History','Super Senior',3.0,'SFName',800043345,'Mandelbaum',true
+'Biology','Junior',1.85,'Weirdo',800033345,'Human',true
+
+Table RIETSStudents rows:
+
+Most Recent Backup: 2017-01-03 17:53:48.515

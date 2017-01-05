@@ -1,0 +1,9 @@
+Database create queries:
+CREATE TABLE YCStudent( BannerID int, Class varchar(255), FirstName varchar(255), LastName varchar(255) NOT NULL, GPA decimal(1,2) DEFAULT 0.00, Major varchar(225), StillStudent boolean, PRIMARY KEY (BannerID));
+CREATE INDEX GPA_Index on YCStudent (GPA);
+
+Table YCStudent rows:
+'Sociology','Junior',1.85,'Huge',800012345,'Person',true
+'Rave','Super Senior',3.0,'Melyssa',600043345,'Mandelbaum',true
+
+Most Recent Backup: 2016-12-29 21:14:02.33

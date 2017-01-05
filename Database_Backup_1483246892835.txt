@@ -1,0 +1,11 @@
+Database create queries:
+CREATE TABLE YCStudent( BannerID int, Class varchar(255), FirstName varchar(255), LastName varchar(255) NOT NULL, GPA decimal(1,2) DEFAULT 0.00, Major varchar(225), StillStudent boolean, PRIMARY KEY (BannerID));
+
+Table YCStudent rows:
+null,null,3.85,null,800043345,null,true
+null,null,3.85,null,800033345,null,true
+null,null,2.75,null,800012345,null,true
+null,null,3.15,null,600043345,null,true
+null,null,3.15,null,600043385,null,true
+
+Most Recent Backup: 2017-01-01 00:00:46.196

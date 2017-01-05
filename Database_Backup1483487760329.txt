@@ -1,0 +1,14 @@
+Database create queries:
+CREATE TABLE YCStudent( BannerID int, Class varchar(255), FirstName varchar(255) DEFAULT 'SFName', LastName varchar(255) NOT NULL, GPA decimal(1,2) DEFAULT 0.00, Major varchar(225), StillStudent boolean, PRIMARY KEY (BannerID));
+CREATE TABLE RIETSStudents( BannerID int, Class varchar(255), FirstName varchar(255) DEFAULT 'SFName', LastName varchar(255) NOT NULL, StillUndergrad boolean, PRIMARY KEY (BannerID));
+
+Table YCStudent rows:
+'History','Super Senior',3.85,'SFName',800043345,'Mandelbaum',true
+'Biology','High School',3.85,'Weirdo',800033345,'Human',true
+'Sociology','Sophmore',2.75,'Huge',800012345,'Person',true
+'Rave','Freshman',3.15,'Melyssa',600043345,'Mandelbaum',true
+'Rave','Freshman',3.15,'David',600043385,'Marcus',true
+
+Table RIETSStudents rows:
+
+Most Recent Backup: 2017-01-03 18:56:00.258
